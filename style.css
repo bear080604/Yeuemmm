@@ -53,6 +53,7 @@ body {
   display: grid;
   position: absolute;
   place-items: center;
+  padding-top: 100px;
 }
 
 .container>.envelope-wrapper {
@@ -201,7 +202,7 @@ body {
 }
 
 .flap>.envelope>.letter {
-  bottom: 140px;
+  bottom: 200px;
   transform: scale(1.5);
   transition-delay: 1s;
 }
