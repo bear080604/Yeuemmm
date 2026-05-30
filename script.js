@@ -4,17 +4,17 @@ const textContainer = document.getElementById('text');
 const photoBackground = document.getElementById('photo-background');
 const giftButton = document.getElementById('gift-button');
 
-const letterText = `<strong>Dear Dr.Gifter,</strong>
+const letterText = `<strong>Dear Bé Iuu,</strong>
 <p style="text-indent: 15px; margin-top: 10px;">
-    Cảm ơn em vì đã đến bên anh và trở thành điều tuyệt vời nhất trong cuộc sống của anh. Sự dịu dàng, lòng tốt, sự mạnh mẽ và luôn quan tâm của em khiến anh cảm thấy may mắn và hạnh phúc hơn mỗi ngày. Cảm ơn em vì luôn ở bên anh, ủng hộ anh vô điều kiện, dù là những lúc vui vẻ hay những khi anh gặp khó khăn.
+    Chúc bé tuổi mới luôn ngập tràn niềm vui, lúc nào cũng cười thật nhiều và giữ mãi sự đáng yêu này nhé! ✨🍰
 </p>
 <p style="text-indent: 15px; margin-top: 10px;">
-    Có em trong cuộc đời, anh học được cách yêu thương, kiên nhẫn và trân trọng từng khoảnh khắc nhỏ bé. Em không chỉ là người anh yêu, mà còn là chỗ dựa, là nguồn động viên, là lý do để anh cố gắng trở thành người tốt hơn mỗi ngày.
+    Cảm ơn vì đã xuất hiện và cùng tớ tạo nên những cuộc trò chuyện thật vui suốt thời gian qua. Mong rằng hành trình sắp tới của bé sẽ luôn suôn sẻ, hạnh phúc và... hy vọng là sẽ có tớ đồng hành dài dài phía trước. 🥰
 </p>
 <p style="text-indent: 15px; margin-top: 10px;">
-    Anh yêu em nhiều hơn những gì lời nói có thể diễn tả — không chỉ hôm nay, mà là mỗi ngày, và sẽ luôn như vậy mãi mãi.
+    Sinh nhật vui vẻ nha bé! ❤️
 </p>
-<p class="love" style="text-align: center; font-weight: bold; margin-block: 15px;">Love You Dr.Gifter</p>`;
+<p class="love" style="text-align: right; font-weight: bold; margin-block: 15px; margin-right: 20px;">Ký tên: Bear 🐻❤️</p>`;
 
 let typingStarted = false;
 
