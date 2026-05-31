@@ -63,7 +63,9 @@ function startTyping() {
             const letter = document.querySelector('.letter');
             letter.scrollTop = letter.scrollHeight;
 
-            setTimeout(type, 30);
+            const isMobile = window.innerWidth <= 600;
+            const typingSpeed = isMobile ? 50 : 30;
+            setTimeout(type, typingSpeed);
         } else {
             document.body.classList.add('typing-done');
             setTimeout(() => {
